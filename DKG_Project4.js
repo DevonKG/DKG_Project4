@@ -19,6 +19,24 @@ var Lib = function(){
         }
 }
 var NLib = new Lib();
-    console.log("I have a phonenumber " + NLib.Phone(7751112233));
+    console.log("I have a phone number " + NLib.Phone(7751112233));
 //String 1 over
 // String 2
+
+var Link = function() {
+    
+    var Email = function(val) {
+        if (EM (val)) {
+
+        } else {
+            
+        }
+        return true 
+    }
+    return {
+        Email : Email
+    }
+}
+var NLink = new Link();
+    console.log("Your email is working" + NLink.Email());
+//String 2 done - not working
